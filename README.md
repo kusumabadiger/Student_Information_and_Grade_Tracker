@@ -12,13 +12,13 @@ CGPA calculation, report cards and student rankings.
 - Department
 
 ## Features
-- Add student details
-- Display all student records
-- Record and update subject marks
-- Validate marks between 0 and 100
-- Calculate CGPA
-- Generate student report cards
-- Display rank list based on CGPA
+- Add a student with USN, name, date of birth, phone number, primary address and email (all fields validated)
+- Add or update marks for any subject (0-100)
+- Automatic CGPA, total and percentage calculation
+- Formatted report card for any student
+- Display all student records in a table
+- Rank list sorted by CGPA (highest first)
+- Friendly error messages for bad input, invalid marks and unknown USNs
 
 ## Java concepts used
 - Abstraction, encapsulation, inheritance and polymorphism
